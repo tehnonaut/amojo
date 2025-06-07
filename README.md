@@ -20,3 +20,7 @@ Execute the application with:
 ```bash
 gradle run
 ```
+
+## Automated Releases
+
+When code is pushed to the `main` branch, a GitHub Actions workflow builds the release APK using the Android SDK and publishes it as a prerelease. The latest APK can be downloaded from the Releases page.
